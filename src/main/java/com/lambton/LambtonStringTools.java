@@ -112,7 +112,7 @@ public class LambtonStringTools {
           afterString = string.substring(endIndex);
           string = beforeString + replaceString+afterString;
       }
-      return ;
+      return string;
 
 
     }
