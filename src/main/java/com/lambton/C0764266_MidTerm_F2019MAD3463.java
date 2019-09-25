@@ -16,6 +16,9 @@ public class C0764266_MidTerm_F2019MAD3463
         System.out.println("camy SaNDHu SinGH " + object.initials("Camy SaNDHu SinGH"));
         System.out.println("raman dHILLon kauR " + object.initials("raman dHILLon kauR"));
 
+        System.out.println("Harman" + object.mostFrequent("Harman"));
+        System.out.println("camay" + object.mostFrequent("camay"));
+
     }
 
 }
