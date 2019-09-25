@@ -103,9 +103,12 @@ public class LambtonStringTools {
       replaceString=replaceString.toLowerCase();
       int startIndex,endIndex;
       String beforeString,afterString;
-      while()
+      while(string.indexOf(pattern)!=1)
       {
-          
+          resultString="";
+          startIndex=string.indexOf(pattern);
+          endIndex=
+
       }
 
 
