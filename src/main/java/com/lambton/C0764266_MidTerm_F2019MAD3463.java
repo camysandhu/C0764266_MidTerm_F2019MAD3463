@@ -12,6 +12,10 @@ public class C0764266_MidTerm_F2019MAD3463
         System.out.println("01001101 "+object.binaryToDecimal("01001101"));
         System.out.println("1000.1 "+object.binaryToDecimal("1000.1"));
 
+        System.out.println("James tiBeriUs kiRK " + object.initials("James tiBeriUs kiRK"));
+        System.out.println("camy SaNDHu SinGH " + object.initials("Camy SaNDHu SinGH"));
+        System.out.println("raman dHILLon kauR " + object.initials("raman dHILLon kauR"));
+
     }
 
 }
