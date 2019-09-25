@@ -20,6 +20,7 @@ public class C0764266_MidTerm_F2019MAD3463
         System.out.println("camay" + object.mostFrequent("camay"));
         System.out.println("Ramandeep" + object.mostFrequent("Ramandeep"));
         System.out.println("Jaspreet" + object.mostFrequent("Jaspreet"));
+        System.out.println("Harchandbir" + object.mostFrequent("Harchandbir"));
 
     }
 
