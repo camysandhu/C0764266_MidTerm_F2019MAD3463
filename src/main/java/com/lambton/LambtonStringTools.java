@@ -99,7 +99,11 @@ public class LambtonStringTools {
     {
       String resultString = "";
       string = string.toLowerCase();
-      pattern=string.toLowerCase();
+      pattern=pattern.toLowerCase();
+      replaceString=replaceString.toLowerCase();
+      int startIndex,endIndex;
+      String beforeString,afterString;
+
 
     }
 
