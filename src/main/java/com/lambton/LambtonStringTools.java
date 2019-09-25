@@ -103,6 +103,10 @@ public class LambtonStringTools {
       replaceString=replaceString.toLowerCase();
       int startIndex,endIndex;
       String beforeString,afterString;
+      while()
+      {
+          
+      }
 
 
     }
