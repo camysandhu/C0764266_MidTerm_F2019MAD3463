@@ -28,19 +28,32 @@ public class LambtonStringTools {
         return decimal;
     }
 
-    public String intials(String fullName)
+    public String initials(String fullName)
     {
         fullName=fullName.toUpperCase();
         String names[]=fullName.split(" ");
-        if (names.length == 2)
+        if (names.length >= 2)
         {
           return fullName;
+
+        }
+        else
+        {
+            String initials = " ";
+            for(int i=0;i<names.length-1;i++)
+            {
+                initials+=names[i].toUpperCase().charAt(0)+". ";
+            }
+            initials+=titleCase(names[names.length-1]);
+            return initials;
+
+        }
         }
 
     }
 
 
 
-    }
+
 
 
