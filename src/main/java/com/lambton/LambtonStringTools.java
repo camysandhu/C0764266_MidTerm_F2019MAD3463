@@ -107,7 +107,8 @@ public class LambtonStringTools {
       {
           resultString="";
           startIndex=string.indexOf(pattern);
-          endIndex=
+          endIndex = startIndex+pattern.length();
+          beforeString = string.substring(0,startIndex);
 
       }
 
