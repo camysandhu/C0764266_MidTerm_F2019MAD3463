@@ -97,7 +97,10 @@ public class LambtonStringTools {
 
     public String replaceSubString(String string,String pattern,String replaceString )
     {
-        
+      String resultString = "";
+      string = string.toLowerCase();
+      pattern=string.toLowerCase();
+
     }
 
 
