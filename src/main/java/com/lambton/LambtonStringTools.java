@@ -32,9 +32,9 @@ public class LambtonStringTools {
     {
         fullName=fullName.toUpperCase();
         String names[]=fullName.split(" ");
-        if (names.length >= 2)
+        if (names.length == 2)
         {
-          return fullName;
+          return null;
 
         }
         else
@@ -50,7 +50,15 @@ public class LambtonStringTools {
         }
         }
 
+    private String titleCase(String name) {
+        name = name.toLowerCase();
+        String titleCasedName = "";
+        titleCasedName+=Character.toString(name.charAt(0)).toUpperCase();
+        titleCasedName+=name.substring(1);
+        return titleCasedName;
     }
+
+}
 
 
 
