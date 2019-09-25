@@ -95,6 +95,12 @@ public class LambtonStringTools {
     }
 
 
+    public String replaceSubString(String string,String pattern,String replaceString )
+    {
+        
+    }
+
+
 }
 
 
