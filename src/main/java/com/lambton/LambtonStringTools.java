@@ -2,37 +2,43 @@ package com.lambton;
 
 public class LambtonStringTools {
 
-    public String reverse(String string)
-    {
+    public String reverse(String string) {
         StringBuilder rev = new StringBuilder();
-        for (int i = string.length() - 1; i >=0; i--)
-        {
+        for (int i = string.length() - 1; i >= 0; i--) {
             rev.append(string.charAt(i));
         }
 
         return rev.toString();
     }
-     public int binaryToDecimal(String binary) {
-         int decimal = 0;
-         int binaryMultiplier = 1;
-         for (char c : reverse(binary).toCharArray())
 
-         {
-             if(c=='1')
-             {
-                 decimal+=binaryMultiplier;
-             }
-             else if(c== '0')
-             {
+    public int binaryToDecimal(String binary) {
+        int decimal = 0;
+        int binaryMultiplier = 1;
+        for (char c : reverse(binary).toCharArray()) {
+            if (c == '1') {
+                decimal += binaryMultiplier;
+            } else if (c == '0') {
 
-             }
-             else
-             {
-                 return -1;
-             }
-             binaryMultiplier *2;
+            } else {
+                return -1;
+            }
+            binaryMultiplier *= 2;
 
-         }
+        }
+        return decimal;
+    }
+
+    public String intials(String fullName)
+    {
+        fullName=fullName.toUpperCase();
+        String names[]=fullName.split(" ");
+        if (names.length == 2)
+        {
+          return fullName;
+        }
+
+    }
+
 
 
     }
